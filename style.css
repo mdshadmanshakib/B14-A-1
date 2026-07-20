@@ -6,7 +6,7 @@
 
 
 /* common style */
-.common-btn{
+.common-btn {
     background-color: rgb(39, 39, 226);
     padding: 13px 40px;
     border-radius: 10px;
@@ -20,10 +20,11 @@
 
 /* Navigation Bar */
 
-header{
-     background-color: white;
+header {
+    background-color: white;
     color: rgb(158, 158, 158);
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -39,16 +40,19 @@ ul {
     gap: 25px;
     font-size: 15px;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
 
 }
+
 /* logo */
-.logo{
+.logo {
     align-items: center;
     gap: 0px;
 }
-nav ul a{
+
+nav ul a {
     color: rgb(110, 109, 109);
     text-decoration: none;
 
@@ -65,17 +69,107 @@ nav ul a{
     justify-content: center;
     align-items: center;
 }
-.Hero-content{
+
+.Hero-content {
     text-align: center;
 }
-.Hero h1{
+
+.Hero h1 {
     color: white;
 }
-.Hero p{
+
+.Hero p {
     color: white;
 }
-.Hero-button{
+
+.Hero-button {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* Meet the spekars section style */
+
+.meet-the-speakers {
+    width: 1200px;
+    margin: 15px auto;
+}
+
+.meet-the-speakers h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.speakers-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+
+}
+{
+    text-decoration: none;
+}
+
+.speakers-card img {
+    width: 100%;
+    display: block;
+}
+
+.speaker-1 {
+    border: 2px solid rgb(228, 225, 225);
+    border-radius: 10px;
+}
+
+.speaker-2 {
+    border: 2px solid rgb(228, 225, 225);
+    border-radius: 10px;
+}
+
+.speaker-3 {
+    border: 2px solid rgb(228, 225, 225);
+    border-radius: 10px;
+}
+
+.speaker-4 {
+    border: 2px solid rgb(228, 225, 225);
+    border-radius: 10px;
+}
+
+/* Secure Your Spot start */
+
+.secure-your-spot h1{
+    text-align: center;
+    padding: 15px;
+}
+
+#subtitle{
+    text-align: center;
+    padding: 8px;
+    color: rgb(138, 140, 141);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer{
+    background-color: #0e1d2e;
+    color: aliceblue;
+    border: 3px solid #0e1d2e;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+
