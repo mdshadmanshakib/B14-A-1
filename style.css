@@ -34,14 +34,14 @@ nav {
     padding: 10px 0;
 }
 
-ul {
+header div ul {
     display: flex;
     list-style: none;
     gap: 25px;
     font-size: 15px;
 }
 
-ul li a {
+a {
     text-decoration: none;
 
 }
@@ -117,24 +117,34 @@ nav ul a {
 .speakers-card img {
     width: 100%;
     display: block;
+
 }
 
-.speaker-1 {
+.card-info{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.speaker-1 img{
     border: 2px solid rgb(228, 225, 225);
     border-radius: 10px;
 }
 
-.speaker-2 {
+
+
+.speaker-2 img{
     border: 2px solid rgb(228, 225, 225);
     border-radius: 10px;
 }
 
-.speaker-3 {
+.speaker-3 img{
     border: 2px solid rgb(228, 225, 225);
     border-radius: 10px;
 }
 
-.speaker-4 {
+.speaker-4 img{
     border: 2px solid rgb(228, 225, 225);
     border-radius: 10px;
 }
